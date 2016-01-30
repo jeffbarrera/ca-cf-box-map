@@ -418,6 +418,15 @@ counties = {
 var countyIDs = Object.getOwnPropertyNames(counties);
 
 
+scoreDescriptions = {
+	'3': "Puts filings online in a machine-readable format",
+	'2': "Puts filings online, but only in PDF format",
+	'1.5': "PDFs available by contacting the County",
+	'1': "Have to visit an office to view paper filings",
+	'0': "Unknown"
+}
+
+
 // =======
 // d3 plot
 // =======
