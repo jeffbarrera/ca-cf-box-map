@@ -389,7 +389,7 @@ counties = {
 		"name": "Tuolumne",
 		"row": 5,
 		"col": 4,
-		"score": 0
+		"score": 1.5
 	},
 	"VEN": {
 		"abrev": "VEN",
@@ -403,19 +403,23 @@ counties = {
 		"name": "Yolo",
 		"row": 4,
 		"col": 2,
-		"score": 0
+		"score": 1
 	},
 	"YUB": {
 		"abrev": "YUB",
 		"name": "Yuba",
 		"row": 2,
 		"col": 2,
-		"score": 0
+		"score": 1
 	}
 };
 
 // generate array of IDs to access the counties object
 var countyIDs = Object.getOwnPropertyNames(counties);
+
+
+
+
 
 
 scoreDescriptions = {
@@ -444,7 +448,7 @@ var width = 350;
 var cols = 9;
 var rows = 13;
 
-var gap = 2;
+var gap = 5;
 var countyWidth = Math.round((width / cols) - gap);
 
 // build plot
@@ -473,6 +477,7 @@ var countyRects = countyGroups.append("rect")
 
 		// access score from object
 		countyScore = counties[countyID]["score"];
+        
 
 		switch(countyScore) {
 			case 3:
@@ -494,6 +499,56 @@ var countyRects = countyGroups.append("rect")
 		return color;
 	});
 
+function mouseoverHandler(d, i) {  // Add interactivity
+          //console.log(d, i);
+            // Use D3 to select element
+//          id = d3.select(this).attr("width", function (id) {console.log(id);});
+          updateBox(d);
+          }
+
+function updateBox(id) {
+      score = counties[id]["score"];
+      console.log(counties[id]["name"]);
+      console.log(counties[id]["score"]);
+      console.log(scoreDescriptions[score]);
+  
+      d3.select("#display_title").text(counties[id]["name"]);
+      d3.select("#display_info").text(scoreDescriptions[score]);
+    }
+
+function mouseoutHandler(d, i) {  // Add interactivity
+
+            // Use D3 to select element, change color and size
+      d3.select("#display_title").text("");
+      d3.select("#display_info").text("");
+          }
+
+
+
+	//	countyFullName = counties[countyID]["name"];
+    //    countyScore = counties[countyID]["score"];
+/*
+		switch(countyScore) {
+			case 3:
+				description = "Puts filings online in a machine-readable format";
+				break;
+			case 2:
+				description = "Puts filings online, but only in PDF format";
+				break;
+			case 1.5:
+				description = "PDFs available by contacting the County";
+				break;
+			case 1:
+				description = "Have to visit an office to view paper filings";
+				break;
+			default:
+				description = "Unknown";
+		}
+
+		return description;
+	});
+
+*/
 
 // add labels to each county
 countyGroups.append("text")
@@ -502,8 +557,14 @@ countyGroups.append("text")
 	.attr("y", countyWidth / 2)
 	.attr("text-anchor", "middle")
 	.attr("alignment-baseline", "central")
-	// .attr("transform", "translate(-50%, 50%)")
 	.text(function (d) { return d; });
 
+countyGroups.on("mouseover", mouseoverHandler)
+    .on("mouseout", mouseoutHandler);
 
+countyGroups.append("rect")
+    .attr("width", countyWidth)
+    .attr("height", countyWidth)
+    .style("fill", "rgba(0,0,0,0)");
 
+                                

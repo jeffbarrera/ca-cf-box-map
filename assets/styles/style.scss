@@ -28,26 +28,45 @@ body {width: 100%;
 h1 {
 	font-family: 'Oswald', 'Helvetica', sans-serif;
 	font-weight: 500;
-	font-size: 1.25em;
+	font-size: 1.55em;
 	color: $slate;
 	text-align: center;
 	margin-bottom: .5em;
+    margin-top: .5em;
 }
 
 
 /*****
 Map Wrapper
 ******/
+
 .map {
 	margin: 0 auto;
-	margin-top: 5em; // temp for dev purposes
+	margin-top: 1 em; // temp for dev purposes
 	max-width: 350px;
+    position: relative;
 }
+
+#display_box {
+    width: 50%;
+    height: 70px;
+    position: absolute;
+    left: 100%;
+    top: 100px;
+    margin-left: -20%;
+    text-align: left;
+    border: 3px solid $slate;
+    padding: 13px;
+    padding-right: 10px;
+}
+    
 
 .map__title {
 	text-align: center;
 	margin-bottom: 1em;
 }
+
+
 
 .map__credit {
 	margin-top: 1.5em;
@@ -64,7 +83,7 @@ MAP
 
 // add spacing at bottom of plot
 #plot svg {
-	padding-bottom: 2px; // show all of the bottom two counties
+	padding: 5px; // show all of the bottom two counties and top highlight
 }
 
 // county labels
@@ -73,23 +92,8 @@ MAP
 	font-size: .75em;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#plot rect:hover{
+  cursor: pointer;
+  stroke: 2px $slate;
+}
 
