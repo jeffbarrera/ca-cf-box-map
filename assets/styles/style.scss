@@ -1,0 +1,126 @@
+// reset and helpers
+@import "reset";
+
+// Constants
+$transition-time-ease: .2s ease;
+
+
+/*********
+GENERAL STYLES
+*********/
+
+/*Colors*/
+$slate: #58646D;
+$blue: #5683B0;
+$grey-dark: #2E3338;
+$grey-light: #9FB3C3;
+$red-dark: #8c1515;
+$red-light: lighten($red-dark, 10%);
+
+body {width: 100%;
+	height: 100%;
+	font-size: 1em;
+	padding: 0 10px;
+	font-family: 'Source Sans Pro', 'Helvetica', sans-serif;
+	box-sizing: border-box;
+	text-align: center;}
+
+h1 {
+	font-family: 'Oswald', 'Helvetica', sans-serif;
+	font-weight: 500;
+	font-size: 1.55em;
+	color: $slate;
+	text-align: center;
+	margin-bottom: .5em;
+    margin-top: .5em;
+}
+
+
+/*****
+Map Wrapper
+******/
+
+.map {
+	margin: 0 auto;
+	margin-top: 1 em; // temp for dev purposes
+	max-width: 350px;
+    position: relative;
+}
+
+#display_box {
+    width: 50%;
+    height: 70px;
+    position: absolute;
+    left: 100%;
+    top: 100px;
+    margin-left: -20%;
+    text-align: left;
+    border: 3px solid $slate;
+    padding: 13px;
+    padding-right: 10px;
+}
+    
+
+.map__title {
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+
+
+.map__credit {
+	margin-top: 1.5em;
+	font-size: .75em;
+	font-style: italic;
+	text-align: right;
+	color: $slate;
+}
+
+
+/*****
+MAP
+******/
+
+// add spacing at bottom of plot
+#plot svg {
+	padding: 5px; // show all of the bottom two counties and top  highlight
+}
+
+// county labels
+#plot text.countyAbbr {
+	fill: #fff;
+	font-size: .75em;
+}
+
+#plot rect:hover{
+  cursor: pointer;
+  stroke: 2x $slate;
+}
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
