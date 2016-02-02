@@ -390,7 +390,6 @@ counties = {
 		"row": 5,
 		"col": 4,
 		"score": 1.5
-
 	},
 	"VEN": {
 		"abrev": "VEN",
@@ -405,7 +404,6 @@ counties = {
 		"row": 4,
 		"col": 2,
 		"score": 1
-
 	},
 	"YUB": {
 		"abrev": "YUB",
@@ -413,14 +411,15 @@ counties = {
 		"row": 2,
 		"col": 2,
 		"score": 1
-
-
-
 	}
 };
 
 // generate array of IDs to access the counties object
 var countyIDs = Object.getOwnPropertyNames(counties);
+
+
+
+
 
 
 scoreDescriptions = {
@@ -449,10 +448,7 @@ var width = 350;
 var cols = 9;
 var rows = 13;
 
-
 var gap = 5;
-
-
 var countyWidth = Math.round((width / cols) - gap);
 
 // build plot
@@ -481,7 +477,7 @@ var countyRects = countyGroups.append("rect")
 
 		// access score from object
 		countyScore = counties[countyID]["score"];
-
+        
 
 		switch(countyScore) {
 			case 3:
@@ -503,13 +499,11 @@ var countyRects = countyGroups.append("rect")
 		return color;
 	});
 
-
 function mouseoverHandler(d, i) {  // Add interactivity
-          console.log(d, i);
+          //console.log(d, i);
             // Use D3 to select element
 //          id = d3.select(this).attr("width", function (id) {console.log(id);});
           updateBox(d);
-  
           }
 
 function updateBox(id) {
@@ -525,11 +519,8 @@ function updateBox(id) {
 function mouseoutHandler(d, i) {  // Add interactivity
 
             // Use D3 to select element, change color and size
-            d3.select(this).attr({
-
-              
-              
-            });
+      d3.select("#display_title").text("");
+      d3.select("#display_info").text("");
           }
 
 
@@ -566,7 +557,6 @@ countyGroups.append("text")
 	.attr("y", countyWidth / 2)
 	.attr("text-anchor", "middle")
 	.attr("alignment-baseline", "central")
-
 	.text(function (d) { return d; });
 
 countyGroups.on("mouseover", mouseoverHandler)
@@ -575,6 +565,6 @@ countyGroups.on("mouseover", mouseoverHandler)
 countyGroups.append("rect")
     .attr("width", countyWidth)
     .attr("height", countyWidth)
-    .style("fill", "rgba(0,0,0,0)")
-	.text(function (d) { return d; });
+    .style("fill", "rgba(0,0,0,0)");
 
+                                

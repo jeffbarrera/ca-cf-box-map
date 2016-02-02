@@ -40,7 +40,6 @@ h1 {
 Map Wrapper
 ******/
 
-
 .map {
 	margin: 0 auto;
 	margin-top: 1 em; // temp for dev purposes
@@ -60,12 +59,13 @@ Map Wrapper
     padding: 13px;
     padding-right: 10px;
 }
-
+    
 
 .map__title {
 	text-align: center;
 	margin-bottom: 1em;
 }
+
 
 
 .map__credit {
@@ -83,7 +83,7 @@ MAP
 
 // add spacing at bottom of plot
 #plot svg {
-	padding: 5px; // show all of the bottom two counties and top  highlight
+	padding: 5px; // show all of the bottom two counties and top highlight
 }
 
 // county labels
@@ -92,9 +92,8 @@ MAP
 	font-size: .75em;
 }
 
-
 #plot rect:hover{
   cursor: pointer;
-  stroke: 2x $slate;
+  stroke: 2px $slate;
 }
 
