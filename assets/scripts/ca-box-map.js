@@ -478,7 +478,7 @@ var countyIDs = Object.getOwnPropertyNames(counties);
 
 
 scoreDescriptions = {
-	'3': "Puts filings online in a machine-readable format",
+	'3': "Puts filings online in a searchable format",
 	'2': "Puts filings online, but only in PDF format",
 	'1.5': "PDFs available by contacting the County",
 	'1': "Have to visit an office to view paper filings",
@@ -573,13 +573,23 @@ var countyLabels = countyGroups.append("text")
 	.attr("alignment-baseline", "central")
 	.text(function (d) { return d; });
 
+// function to make numbers more readable - from http://stackoverflow.com/questions/3883342/add-commas-to-a-number-in-jquery
+function commaSeparateNumber(val) {
+    while (/(\d+)(\d{3})/.test(val.toString())){
+      val = val.toString().replace(/(\d+)(\d{3})/, '$1'+','+'$2');
+    }
+    return val;
+}
+
 
 // mouseover stuff
 function mouseoverHandler(d, i) {
 	score = counties[d]["score"];
 	county_name = counties[d]["name"] + " County";
+	county_pop_str = "Pop. " + commaSeparateNumber(counties[d]["county_pop"]);
   
 	d3.select("#county_name").text(county_name);
+	d3.select("#county_pop").text(county_pop_str);
 	d3.select("#county_info").text(scoreDescriptions[score]);
 
 	// class for styling purposes
@@ -590,6 +600,7 @@ function mouseoutHandler(d, i) {
 
 	// reset values
     d3.select("#county_name").text("");
+    d3.select("#county_pop").text("");
     d3.select("#county_info").text("Hover over a County to learn more");
 
     // class for styling purposes

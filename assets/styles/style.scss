@@ -76,7 +76,7 @@ Map Wrapper
     // height: 70px;
     position: absolute;
     left: 100%;
-    top: 0;
+    top: -2px;
     margin-left: -40%;
     text-align: left;
     padding: .9em 1.2em;
@@ -84,6 +84,7 @@ Map Wrapper
     // border-radius: 2px;
     transition: all .3s ease-out;
     background-color: $grey-light;
+    border: 2px solid #fff;
 	color: #fff;
 	transform: translate3d(0, 0, 0);
 
@@ -92,9 +93,14 @@ Map Wrapper
  		margin-bottom: .5em;
     }
 
-     p {
+    p {
  		font-size: .875em;
  		line-height: 1.4;
+    }
+
+    #county_pop {
+    	font-style: italic;
+    	margin-bottom: .5em;
     }
 }
 
