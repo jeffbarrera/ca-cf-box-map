@@ -15,21 +15,49 @@
 </head>
 <body>
 
-<div class="map">
+<figure class="map">
 
-	<h1 class="map__title">Counties Scorecard</h1>
+	<h1 class="map__title">Over half (CHECK) of California counties do not put campaign finance filings online</h1>
 
-	<div id="plot"></div>
+	<!-- KEY -->
+	<ul class="map__key key">
+		<li class="key__item key__item--scale">More accessible</li>
+		<li class="key__item key__item--value" data-score="3">
+			<span class="key__desc active">Puts filings online in a machine-readable format</span>
+		</li>
+		<li class="key__item key__item--value" data-score="2">
+			<span class="key__desc">Puts filings online, but only in PDF format</span>
+		</li>
+		<li class="key__item key__item--value" data-score="1.5">
+			<span class="key__desc">PDFs available by contacting the County</span>
+		</li>
+		<li class="key__item key__item--value" data-score="1">
+			<span class="key__desc">Have to visit an office to view paper filings</span>
+		</li>
+		<li class="key__item key__item--scale">Less accessible</li>
+	</ul>
 
-      <div id="display_box">
-        <h3 id="display_title"></h3>
-        <p id="display_info"></p>
-      </div>
+	<!-- MAP AND OVERLAYS -->
+	<div class="map__graphic-wrapper">
+		<div id="plot"></div>
 
+	    <div class="map__info map__info--default">
+	    	<h3 id="county_name"></h3>
+	        <p id="county_info">Hover over a County to learn more</p>
+	    </div>
+
+	    <div class="map__toggle-pane">
+	    	<p>Larger counties tend to make filings more accessible:</p>
+	    	<button class="toggle-btn" id="toggle-scale">Scale by population</button>
+	    </div>
+		
+	</div>
+	
+	<!-- CODE AND CREDITS-->
 	<script type="text/javascript" src="assets/scripts/ca-box-map.js"></script>
 	<p class="map__credit">Graphic by Jeff Barrera &amp; Travis Shafer/Peninsula Press</p>
 
-</div>
+</figure>
 	
 </body>
 </html>
