@@ -1,5 +1,5 @@
 /* CREDITS:
-- Implementation based on David Mimno's US states box map: https://gist.github.com/mimno/4a904031a566a361f2b1
+- Implementation adapted from David Mimno's US states box map: https://gist.github.com/mimno/4a904031a566a361f2b1
 - Box map concept was inspired by Allison McCann's graphic for 538: http://fivethirtyeight.com/features/where-your-state-gets-its-money/
 */
 
@@ -12,7 +12,8 @@ counties = {
 		"row": 7,
 		"col": 4,
 		"score": 3,
-		"county_pop": 1553960
+		"county_pop": 1553960,
+		"notes": ""
 	},
 	"ALP": {
 		"abrev": "ALP",
@@ -20,7 +21,8 @@ counties = {
 		"row": 5,
 		"col": 5,
 		"score": 1,
-		"county_pop": 1138
+		"county_pop": 1138,
+		"notes": ""
 	},
 	"AMA": {
 		"abrev": "AMA",
@@ -28,7 +30,8 @@ counties = {
 		"row": 3,
 		"col": 3,
 		"score": 1,
-		"county_pop": 37003
+		"county_pop": 37003,
+		"notes": ""
 	},
 	"BUT": {
 		"abrev": "BUT",
@@ -36,7 +39,8 @@ counties = {
 		"row": 1,
 		"col": 2,
 		"score": 3,
-		"county_pop": 221016
+		"county_pop": 221016,
+		"notes": ""
 	},
 	"CAL": {
 		"abrev": "CAL",
@@ -44,7 +48,8 @@ counties = {
 		"row": 4,
 		"col": 4,
 		"score": 1,
-		"county_pop": 44731
+		"county_pop": 44731,
+		"notes": ""
 	},
 	"COL": {
 		"abrev": "COL",
@@ -52,7 +57,8 @@ counties = {
 		"row": 3,
 		"col": 1,
 		"score": 1,
-		"county_pop": 21355
+		"county_pop": 21355,
+		"notes": ""
 	},
 	"CC": {
 		"abrev": "CC",
@@ -60,7 +66,8 @@ counties = {
 		"row": 6,
 		"col": 3,
 		"score": 2,
-		"county_pop": 1078257
+		"county_pop": 1078257,
+		"notes": ""
 	},
 	"DN": {
 		"abrev": "DN",
@@ -68,7 +75,8 @@ counties = {
 		"row": 0,
 		"col": 0,
 		"score": 1,
-		"county_pop": 28248
+		"county_pop": 28248,
+		"notes": ""
 	},
 	"ED": {
 		"abrev": "ED",
@@ -76,7 +84,8 @@ counties = {
 		"row": 3,
 		"col": 4,
 		"score": 1.5,
-		"county_pop": 180616
+		"county_pop": 180616,
+		"notes": ""
 	},
 	"FRE": {
 		"abrev": "FRE",
@@ -84,7 +93,8 @@ counties = {
 		"row": 9,
 		"col": 6,
 		"score": 2,
-		"county_pop": 947581
+		"county_pop": 947581,
+		"notes": ""
 	},
 	"GLE": {
 		"abrev": "GLE",
@@ -92,7 +102,8 @@ counties = {
 		"row": 2,
 		"col": 0,
 		"score": 1,
-		"county_pop": 27957
+		"county_pop": 27957,
+		"notes": ""
 	},
 	"HUM": {
 		"abrev": "HUM",
@@ -100,7 +111,8 @@ counties = {
 		"row": 1,
 		"col": 0,
 		"score": 1,
-		"county_pop": 134584
+		"county_pop": 134584,
+		"notes": ""
 	},
 	"IMP": {
 		"abrev": "IMP",
@@ -108,7 +120,8 @@ counties = {
 		"row": 12,
 		"col": 7,
 		"score": 1,
-		"county_pop": 176768
+		"county_pop": 176768,
+		"notes": ""
 	},
 	"INY": {
 		"abrev": "INY",
@@ -116,7 +129,8 @@ counties = {
 		"row": 8,
 		"col": 7,
 		"score": 1,
-		"county_pop": 18441
+		"county_pop": 18441,
+		"notes": ""
 	},
 	"KER": {
 		"abrev": "KER",
@@ -124,7 +138,8 @@ counties = {
 		"row": 10,
 		"col": 7,
 		"score": 2,
-		"county_pop": 855498
+		"county_pop": 855498,
+		"notes": ""
 	},
 	"KIN": {
 		"abrev": "KIN",
@@ -132,23 +147,26 @@ counties = {
 		"row": 9,
 		"col": 7,
 		"score": 1,
-		"county_pop": 151382
+		"county_pop": 151382,
+		"notes": ""
 	},
 	"LAK": {
 		"abrev": "LAK",
 		"name": "Lake",
 		"row": 4,
 		"col": 0,
-		"score": 0,
-		"county_pop": 63965
+		"score": 1,
+		"county_pop": 63965,
+		"notes": ""
 	},
 	"LAS": {
 		"abrev": "LAS",
 		"name": "Lassen",
 		"row": 1,
 		"col": 4,
-		"score": 0,
-		"county_pop": 33657
+		"score": 1,
+		"county_pop": 33657,
+		"notes": ""
 	},
 	"LA": {
 		"abrev": "LA",
@@ -156,7 +174,8 @@ counties = {
 		"row": 11,
 		"col": 6,
 		"score": 3,
-		"county_pop": 9951690
+		"county_pop": 9951690,
+		"notes": ""
 	},
 	"MAD": {
 		"abrev": "MAD",
@@ -164,7 +183,8 @@ counties = {
 		"row": 8,
 		"col": 6,
 		"score": 1,
-		"county_pop": 152235
+		"county_pop": 152235,
+		"notes": ""
 	},
 	"MRN": {
 		"abrev": "MRN",
@@ -172,15 +192,17 @@ counties = {
 		"row": 6,
 		"col": 2,
 		"score": 3,
-		"county_pop": 255841
+		"county_pop": 255841,
+		"notes": ""
 	},
 	"MPA": {
 		"abrev": "MPA",
 		"name": "Mariposa",
 		"row": 7,
 		"col": 6,
-		"score": 0,
-		"county_pop": 17888
+		"score": 1,
+		"county_pop": 17888,
+		"notes": ""
 	},
 	"MEN": {
 		"abrev": "MEN",
@@ -188,7 +210,8 @@ counties = {
 		"row": 3,
 		"col": 0,
 		"score": 2,
-		"county_pop": 87373
+		"county_pop": 87373,
+		"notes": ""
 	},
 	"MER": {
 		"abrev": "MER",
@@ -196,7 +219,8 @@ counties = {
 		"row": 7,
 		"col": 5,
 		"score": 2,
-		"county_pop": 261632
+		"county_pop": 261632,
+		"notes": ""
 	},
 	"MOD": {
 		"abrev": "MOD",
@@ -204,7 +228,8 @@ counties = {
 		"row": 0,
 		"col": 4,
 		"score": 1,
-		"county_pop": 9346
+		"county_pop": 9346,
+		"notes": ""
 	},
 	"MNO": {
 		"abrev": "MNO",
@@ -212,15 +237,17 @@ counties = {
 		"row": 6,
 		"col": 5,
 		"score": 1,
-		"county_pop": 14349
+		"county_pop": 14349,
+		"notes": "Moving to a newer system"
 	},
 	"MON": {
 		"abrev": "MON",
 		"name": "Monterey",
 		"row": 9,
 		"col": 4,
-		"score": 0,
-		"county_pop": 426072
+		"score": 2,
+		"county_pop": 426072,
+		"notes": ""
 	},
 	"NAP": {
 		"abrev": "NAP",
@@ -228,7 +255,8 @@ counties = {
 		"row": 4,
 		"col": 1,
 		"score": 1.5,
-		"county_pop": 138916
+		"county_pop": 138916,
+		"notes": ""
 	},
 	"NEV": {
 		"abrev": "NEV",
@@ -236,7 +264,8 @@ counties = {
 		"row": 2,
 		"col": 4,
 		"score": 1.5,
-		"county_pop": 98267
+		"county_pop": 98267,
+		"notes": "Moving to a newer system"
 	},
 	"ORA": {
 		"abrev": "ORA",
@@ -244,7 +273,8 @@ counties = {
 		"row": 11,
 		"col": 7,
 		"score": 3,
-		"county_pop": 3085355
+		"county_pop": 3085355,
+		"notes": ""
 	},
 	"PLA": {
 		"abrev": "PLA",
@@ -252,7 +282,8 @@ counties = {
 		"row": 3,
 		"col": 2,
 		"score": 3,
-		"county_pop": 361420
+		"county_pop": 361420,
+		"notes": ""
 	},
 	"PLU": {
 		"abrev": "PLU",
@@ -260,7 +291,8 @@ counties = {
 		"row": 1,
 		"col": 3,
 		"score": 1,
-		"county_pop": 19338
+		"county_pop": 19338,
+		"notes": ""
 	},
 	"RIV": {
 		"abrev": "RIV",
@@ -268,7 +300,8 @@ counties = {
 		"row": 11,
 		"col": 8,
 		"score": 3,
-		"county_pop": 2264879
+		"county_pop": 2264879,
+		"notes": ""
 	},
 	"SAC": {
 		"abrev": "SAC",
@@ -276,7 +309,8 @@ counties = {
 		"row": 4,
 		"col": 3,
 		"score": 3,
-		"county_pop": 1448053
+		"county_pop": 1448053,
+		"notes": ""
 	},
 	"SBT": {
 		"abrev": "SBT",
@@ -284,7 +318,8 @@ counties = {
 		"row": 9,
 		"col": 5,
 		"score": 2,
-		"county_pop": 56869
+		"county_pop": 56869,
+		"notes": ""
 	},
 	"SBD": {
 		"abrev": "SBD",
@@ -292,7 +327,8 @@ counties = {
 		"row": 10,
 		"col": 8,
 		"score": 3,
-		"county_pop": 2077453
+		"county_pop": 2077453,
+		"notes": ""
 	},
 	"SD": {
 		"abrev": "SD",
@@ -300,7 +336,8 @@ counties = {
 		"row": 12,
 		"col": 6,
 		"score": 2,
-		"county_pop": 3176138
+		"county_pop": 3176138,
+		"notes": ""
 	},
 	"SF": {
 		"abrev": "SF",
@@ -308,7 +345,8 @@ counties = {
 		"row": 7,
 		"col": 3,
 		"score": 3,
-		"county_pop": 827420
+		"county_pop": 827420,
+		"notes": ""
 	},
 	"SJ": {
 		"abrev": "SJ",
@@ -316,7 +354,8 @@ counties = {
 		"row": 5,
 		"col": 3,
 		"score": 3,
-		"county_pop": 701151
+		"county_pop": 701151,
+		"notes": ""
 	},
 	"SLO": {
 		"abrev": "SLO",
@@ -324,7 +363,8 @@ counties = {
 		"row": 10,
 		"col": 5,
 		"score": 3,
-		"county_pop": 274622
+		"county_pop": 274622,
+		"notes": ""
 	},
 	"SM": {
 		"abrev": "SM",
@@ -332,7 +372,8 @@ counties = {
 		"row": 8,
 		"col": 4,
 		"score": 3,
-		"county_pop": 738681
+		"county_pop": 738681,
+		"notes": ""
 	},
 	"SB": {
 		"abrev": "SB",
@@ -340,7 +381,8 @@ counties = {
 		"row": 10,
 		"col": 6,
 		"score": 3,
-		"county_pop": 430426
+		"county_pop": 430426,
+		"notes": ""
 	},
 	"SCL": {
 		"abrev": "SCL",
@@ -348,7 +390,8 @@ counties = {
 		"row": 8,
 		"col": 5,
 		"score": 3,
-		"county_pop": 1836025
+		"county_pop": 1836025,
+		"notes": ""
 	},
 	"SCR": {
 		"abrev": "SCR",
@@ -356,23 +399,26 @@ counties = {
 		"row": 8,
 		"col": 3,
 		"score": 2,
-		"county_pop": 266508
+		"county_pop": 266508,
+		"notes": "Moving to a newer system"
 	},
 	"SHA": {
 		"abrev": "SHA",
 		"name": "Shasta",
 		"row": 0,
 		"col": 3,
-		"score": 0,
-		"county_pop": 178368
+		"score": 1,
+		"county_pop": 178368,
+		"notes": ""
 	},
 	"SIE": {
 		"abrev": "SIE",
 		"name": "Sierra",
 		"row": 2,
 		"col": 3,
-		"score": 0,
-		"county_pop": 3075
+		"score": 1,
+		"county_pop": 3075,
+		"notes": ""
 	},
 	"SIS": {
 		"abrev": "SIS",
@@ -380,7 +426,8 @@ counties = {
 		"row": 0,
 		"col": 2,
 		"score": 1,
-		"county_pop": 44223
+		"county_pop": 44223,
+		"notes": ""
 	},
 	"SOL": {
 		"abrev": "SOL",
@@ -388,7 +435,8 @@ counties = {
 		"row": 5,
 		"col": 2,
 		"score": 1.5,
-		"county_pop": 420335
+		"county_pop": 420335,
+		"notes": "Moving to a newer system"
 	},
 	"SON": {
 		"abrev": "SON",
@@ -396,7 +444,8 @@ counties = {
 		"row": 5,
 		"col": 1,
 		"score": 2,
-		"county_pop": 490596
+		"county_pop": 490596,
+		"notes": ""
 	},
 	"STA": {
 		"abrev": "STA",
@@ -404,7 +453,8 @@ counties = {
 		"row": 6,
 		"col": 4,
 		"score": 1,
-		"county_pop": 521450 
+		"county_pop": 521450 ,
+		"notes": ""
 	},
 	"SUT": {
 		"abrev": "SUT",
@@ -412,7 +462,8 @@ counties = {
 		"row": 2,
 		"col": 1,
 		"score": 0,
-		"county_pop": 94659
+		"county_pop": 94659,
+		"notes": ""
 	},
 	"TEH": {
 		"abrev": "TEH",
@@ -420,7 +471,8 @@ counties = {
 		"row": 1,
 		"col": 1,
 		"score": 1,
-		"county_pop": 63264
+		"county_pop": 63264,
+		"notes": ""
 	},
 	"TRI": {
 		"abrev": "TRI",
@@ -428,7 +480,8 @@ counties = {
 		"row": 0,
 		"col": 1,
 		"score": 1.5,
-		"county_pop": 13506
+		"county_pop": 13506,
+		"notes": ""
 	},
 	"TUL": {
 		"abrev": "TUL",
@@ -436,7 +489,8 @@ counties = {
 		"row": 9,
 		"col": 8,
 		"score": 0,
-		"county_pop": 451043
+		"county_pop": 451043,
+		"notes": ""
 	},
 	"TUO": {
 		"abrev": "TUO",
@@ -444,7 +498,8 @@ counties = {
 		"row": 5,
 		"col": 4,
 		"score": 1.5,
-		"county_pop": 54050
+		"county_pop": 54050,
+		"notes": ""
 	},
 	"VEN": {
 		"abrev": "VEN",
@@ -452,7 +507,8 @@ counties = {
 		"row": 11,
 		"col": 5,
 		"score": 3,
-		"county_pop": 834398
+		"county_pop": 834398,
+		"notes": ""
 	},
 	"YOL": {
 		"abrev": "YOL",
@@ -460,7 +516,8 @@ counties = {
 		"row": 4,
 		"col": 2,
 		"score": 1,
-		"county_pop": 203838
+		"county_pop": 203838,
+		"notes": ""
 	},
 	"YUB": {
 		"abrev": "YUB",
@@ -468,7 +525,8 @@ counties = {
 		"row": 2,
 		"col": 2,
 		"score": 1,
-		"county_pop": 72969
+		"county_pop": 72969,
+		"notes": ""
 	}
 };
 
@@ -587,6 +645,12 @@ function mouseoverHandler(d, i) {
 	score = counties[d]["score"];
 	county_name = counties[d]["name"] + " County";
 	county_pop_str = "Pop. " + commaSeparateNumber(counties[d]["county_pop"]);
+
+	// check if notes
+	if(counties[d]["notes"] != "") {
+		county_notes = "Note: " + counties[d]["notes"]
+		d3.select("#county_notes").text(county_notes);
+	}
   
 	d3.select("#county_name").text(county_name);
 	d3.select("#county_pop").text(county_pop_str);
@@ -601,6 +665,7 @@ function mouseoutHandler(d, i) {
 	// reset values
     d3.select("#county_name").text("");
     d3.select("#county_pop").text("");
+    d3.select("#county_notes").text("");
     d3.select("#county_info").text("Hover over a County to learn more");
 
     // class for styling purposes
