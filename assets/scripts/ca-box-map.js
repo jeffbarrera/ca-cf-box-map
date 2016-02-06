@@ -461,7 +461,7 @@ counties = {
 		"name": "Sutter",
 		"row": 2,
 		"col": 1,
-		"score": 0,
+		"score": 1,
 		"county_pop": 94659,
 		"notes": ""
 	},
@@ -488,7 +488,7 @@ counties = {
 		"name": "Tulare",
 		"row": 9,
 		"col": 8,
-		"score": 0,
+		"score": 1,
 		"county_pop": 451043,
 		"notes": ""
 	},
