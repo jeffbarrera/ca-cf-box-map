@@ -57,14 +57,27 @@ Map Wrapper
 .map__title {
 	text-align: left;
 	margin-bottom: 1.25em;
+	max-width: 320px;
 }
 
-.map__credit {
+.map__credit,
+.map__source {
 	margin-top: 1.5em;
 	font-size: .75em;
 	font-style: italic;
-	text-align: right;
 	color: $slate;
+}
+
+.map__source {
+	float: left;
+	text-align: left;
+	width: 50%;
+}
+
+.map__credit {
+	float: right;
+	text-align: right;
+	width: 43%;
 }
 
 
@@ -121,13 +134,13 @@ Map Wrapper
     position: absolute;
     left: 0;
     top: 100%;
-    margin-top: -103px;
+    margin-top: -106px;
     text-align: left;
 
     p {
     	color: darken($grey-light, 30%);
     	font-size: .875em;
-    	margin-bottom: .5em;
+    	margin-bottom: .75em;
     	font-style: italic;
     	max-width: 80%;
     }

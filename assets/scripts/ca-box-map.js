@@ -12,7 +12,7 @@ counties = {
 		"row": 7,
 		"col": 4,
 		"score": 3,
-		"county_pop": 1553960,
+		"county_pop": 1559308,
 		"notes": ""
 	},
 	"ALP": {
@@ -21,7 +21,7 @@ counties = {
 		"row": 5,
 		"col": 5,
 		"score": 1,
-		"county_pop": 1138,
+		"county_pop": 1202,
 		"notes": ""
 	},
 	"AMA": {
@@ -30,7 +30,7 @@ counties = {
 		"row": 3,
 		"col": 3,
 		"score": 1,
-		"county_pop": 37003,
+		"county_pop": 37159,
 		"notes": ""
 	},
 	"BUT": {
@@ -39,7 +39,7 @@ counties = {
 		"row": 1,
 		"col": 2,
 		"score": 3,
-		"county_pop": 221016,
+		"county_pop": 221578,
 		"notes": ""
 	},
 	"CAL": {
@@ -48,7 +48,7 @@ counties = {
 		"row": 4,
 		"col": 4,
 		"score": 1,
-		"county_pop": 44731,
+		"county_pop": 44921,
 		"notes": ""
 	},
 	"COL": {
@@ -57,7 +57,7 @@ counties = {
 		"row": 3,
 		"col": 1,
 		"score": 1,
-		"county_pop": 21355,
+		"county_pop": 21424,
 		"notes": ""
 	},
 	"CC": {
@@ -66,7 +66,7 @@ counties = {
 		"row": 6,
 		"col": 3,
 		"score": 2,
-		"county_pop": 1078257,
+		"county_pop": 1081232,
 		"notes": ""
 	},
 	"DN": {
@@ -75,7 +75,7 @@ counties = {
 		"row": 0,
 		"col": 0,
 		"score": 1,
-		"county_pop": 28248,
+		"county_pop": 28066,
 		"notes": ""
 	},
 	"ED": {
@@ -84,7 +84,7 @@ counties = {
 		"row": 3,
 		"col": 4,
 		"score": 1.5,
-		"county_pop": 180616,
+		"county_pop": 181465,
 		"notes": ""
 	},
 	"FRE": {
@@ -93,7 +93,7 @@ counties = {
 		"row": 9,
 		"col": 6,
 		"score": 2,
-		"county_pop": 947581,
+		"county_pop": 948844,
 		"notes": ""
 	},
 	"GLE": {
@@ -102,7 +102,7 @@ counties = {
 		"row": 2,
 		"col": 0,
 		"score": 1,
-		"county_pop": 27957,
+		"county_pop": 28019,
 		"notes": ""
 	},
 	"HUM": {
@@ -111,7 +111,7 @@ counties = {
 		"row": 1,
 		"col": 0,
 		"score": 1,
-		"county_pop": 134584,
+		"county_pop": 134876,
 		"notes": ""
 	},
 	"IMP": {
@@ -120,7 +120,7 @@ counties = {
 		"row": 12,
 		"col": 7,
 		"score": 1,
-		"county_pop": 176768,
+		"county_pop": 177026,
 		"notes": ""
 	},
 	"INY": {
@@ -129,7 +129,7 @@ counties = {
 		"row": 8,
 		"col": 7,
 		"score": 1,
-		"county_pop": 18441,
+		"county_pop": 18439,
 		"notes": ""
 	},
 	"KER": {
@@ -138,7 +138,7 @@ counties = {
 		"row": 10,
 		"col": 7,
 		"score": 2,
-		"county_pop": 855498,
+		"county_pop": 857730,
 		"notes": ""
 	},
 	"KIN": {
@@ -147,7 +147,7 @@ counties = {
 		"row": 9,
 		"col": 7,
 		"score": 1,
-		"county_pop": 151382,
+		"county_pop": 151390,
 		"notes": ""
 	},
 	"LAK": {
@@ -156,7 +156,7 @@ counties = {
 		"row": 4,
 		"col": 0,
 		"score": 1,
-		"county_pop": 63965,
+		"county_pop": 64209,
 		"notes": ""
 	},
 	"LAS": {
@@ -165,7 +165,7 @@ counties = {
 		"row": 1,
 		"col": 4,
 		"score": 1,
-		"county_pop": 33657,
+		"county_pop": 33356,
 		"notes": ""
 	},
 	"LA": {
@@ -174,7 +174,7 @@ counties = {
 		"row": 11,
 		"col": 6,
 		"score": 3,
-		"county_pop": 9951690,
+		"county_pop": 9974203,
 		"notes": ""
 	},
 	"MAD": {
@@ -183,7 +183,7 @@ counties = {
 		"row": 8,
 		"col": 6,
 		"score": 1,
-		"county_pop": 152235,
+		"county_pop": 152452,
 		"notes": ""
 	},
 	"MRN": {
@@ -192,7 +192,7 @@ counties = {
 		"row": 6,
 		"col": 2,
 		"score": 3,
-		"county_pop": 255841,
+		"county_pop": 256802,
 		"notes": ""
 	},
 	"MPA": {
@@ -201,7 +201,7 @@ counties = {
 		"row": 7,
 		"col": 6,
 		"score": 1,
-		"county_pop": 17888,
+		"county_pop": 17946,
 		"notes": ""
 	},
 	"MEN": {
@@ -210,7 +210,7 @@ counties = {
 		"row": 3,
 		"col": 0,
 		"score": 2,
-		"county_pop": 87373,
+		"county_pop": 87612,
 		"notes": ""
 	},
 	"MER": {
@@ -219,7 +219,7 @@ counties = {
 		"row": 7,
 		"col": 5,
 		"score": 2,
-		"county_pop": 261632,
+		"county_pop": 261609,
 		"notes": ""
 	},
 	"MOD": {
@@ -228,7 +228,7 @@ counties = {
 		"row": 0,
 		"col": 4,
 		"score": 1,
-		"county_pop": 9346,
+		"county_pop": 9335,
 		"notes": ""
 	},
 	"MNO": {
@@ -237,7 +237,7 @@ counties = {
 		"row": 6,
 		"col": 5,
 		"score": 1,
-		"county_pop": 14349,
+		"county_pop": 14193,
 		"notes": "Moving to a newer system"
 	},
 	"MON": {
@@ -246,7 +246,7 @@ counties = {
 		"row": 9,
 		"col": 4,
 		"score": 2,
-		"county_pop": 426072,
+		"county_pop": 424927,
 		"notes": ""
 	},
 	"NAP": {
@@ -255,7 +255,7 @@ counties = {
 		"row": 4,
 		"col": 1,
 		"score": 1.5,
-		"county_pop": 138916,
+		"county_pop": 139253,
 		"notes": ""
 	},
 	"NEV": {
@@ -264,7 +264,7 @@ counties = {
 		"row": 2,
 		"col": 4,
 		"score": 1.5,
-		"county_pop": 98267,
+		"county_pop": 98606,
 		"notes": "Moving to a newer system"
 	},
 	"ORA": {
@@ -273,7 +273,7 @@ counties = {
 		"row": 11,
 		"col": 7,
 		"score": 3,
-		"county_pop": 3085355,
+		"county_pop": 3086331,
 		"notes": ""
 	},
 	"PLA": {
@@ -282,7 +282,7 @@ counties = {
 		"row": 3,
 		"col": 2,
 		"score": 3,
-		"county_pop": 361420,
+		"county_pop": 361518,
 		"notes": ""
 	},
 	"PLU": {
@@ -291,7 +291,7 @@ counties = {
 		"row": 1,
 		"col": 3,
 		"score": 1,
-		"county_pop": 19338,
+		"county_pop": 19286,
 		"notes": ""
 	},
 	"RIV": {
@@ -300,7 +300,7 @@ counties = {
 		"row": 11,
 		"col": 8,
 		"score": 3,
-		"county_pop": 2264879,
+		"county_pop": 2266899,
 		"notes": ""
 	},
 	"SAC": {
@@ -309,7 +309,7 @@ counties = {
 		"row": 4,
 		"col": 3,
 		"score": 3,
-		"county_pop": 1448053,
+		"county_pop": 1450277,
 		"notes": ""
 	},
 	"SBT": {
@@ -318,7 +318,7 @@ counties = {
 		"row": 9,
 		"col": 5,
 		"score": 2,
-		"county_pop": 56869,
+		"county_pop": 56888,
 		"notes": ""
 	},
 	"SBD": {
@@ -327,7 +327,7 @@ counties = {
 		"row": 10,
 		"col": 8,
 		"score": 3,
-		"county_pop": 2077453,
+		"county_pop": 2078586,
 		"notes": ""
 	},
 	"SD": {
@@ -336,7 +336,7 @@ counties = {
 		"row": 12,
 		"col": 6,
 		"score": 2,
-		"county_pop": 3176138,
+		"county_pop": 3183143,
 		"notes": ""
 	},
 	"SF": {
@@ -345,7 +345,7 @@ counties = {
 		"row": 7,
 		"col": 3,
 		"score": 3,
-		"county_pop": 827420,
+		"county_pop": 829072,
 		"notes": ""
 	},
 	"SJ": {
@@ -354,7 +354,7 @@ counties = {
 		"row": 5,
 		"col": 3,
 		"score": 3,
-		"county_pop": 701151,
+		"county_pop": 701050,
 		"notes": ""
 	},
 	"SLO": {
@@ -363,7 +363,7 @@ counties = {
 		"row": 10,
 		"col": 5,
 		"score": 3,
-		"county_pop": 274622,
+		"county_pop": 274184,
 		"notes": ""
 	},
 	"SM": {
@@ -372,7 +372,7 @@ counties = {
 		"row": 8,
 		"col": 4,
 		"score": 3,
-		"county_pop": 738681,
+		"county_pop": 739837,
 		"notes": ""
 	},
 	"SB": {
@@ -381,7 +381,7 @@ counties = {
 		"row": 10,
 		"col": 6,
 		"score": 3,
-		"county_pop": 430426,
+		"county_pop": 431555,
 		"notes": ""
 	},
 	"SCL": {
@@ -390,7 +390,7 @@ counties = {
 		"row": 8,
 		"col": 5,
 		"score": 3,
-		"county_pop": 1836025,
+		"county_pop": 1841569,
 		"notes": ""
 	},
 	"SCR": {
@@ -399,7 +399,7 @@ counties = {
 		"row": 8,
 		"col": 3,
 		"score": 2,
-		"county_pop": 266508,
+		"county_pop": 267203,
 		"notes": "Moving to a newer system"
 	},
 	"SHA": {
@@ -408,7 +408,7 @@ counties = {
 		"row": 0,
 		"col": 3,
 		"score": 1,
-		"county_pop": 178368,
+		"county_pop": 178520,
 		"notes": ""
 	},
 	"SIE": {
@@ -417,7 +417,7 @@ counties = {
 		"row": 2,
 		"col": 3,
 		"score": 1,
-		"county_pop": 3075,
+		"county_pop": 3019,
 		"notes": ""
 	},
 	"SIS": {
@@ -426,7 +426,7 @@ counties = {
 		"row": 0,
 		"col": 2,
 		"score": 1,
-		"county_pop": 44223,
+		"county_pop": 44261,
 		"notes": ""
 	},
 	"SOL": {
@@ -435,7 +435,7 @@ counties = {
 		"row": 5,
 		"col": 2,
 		"score": 1.5,
-		"county_pop": 420335,
+		"county_pop": 421624,
 		"notes": "Moving to a newer system"
 	},
 	"SON": {
@@ -444,7 +444,7 @@ counties = {
 		"row": 5,
 		"col": 1,
 		"score": 2,
-		"county_pop": 490596,
+		"county_pop": 491790,
 		"notes": ""
 	},
 	"STA": {
@@ -453,7 +453,7 @@ counties = {
 		"row": 6,
 		"col": 4,
 		"score": 1,
-		"county_pop": 521450 ,
+		"county_pop": 522794,
 		"notes": ""
 	},
 	"SUT": {
@@ -462,7 +462,7 @@ counties = {
 		"row": 2,
 		"col": 1,
 		"score": 1,
-		"county_pop": 94659,
+		"county_pop": 95067,
 		"notes": ""
 	},
 	"TEH": {
@@ -471,7 +471,7 @@ counties = {
 		"row": 1,
 		"col": 1,
 		"score": 1,
-		"county_pop": 63264,
+		"county_pop": 63284,
 		"notes": ""
 	},
 	"TRI": {
@@ -480,7 +480,7 @@ counties = {
 		"row": 0,
 		"col": 1,
 		"score": 1.5,
-		"county_pop": 13506,
+		"county_pop": 13515,
 		"notes": ""
 	},
 	"TUL": {
@@ -489,7 +489,7 @@ counties = {
 		"row": 9,
 		"col": 8,
 		"score": 1,
-		"county_pop": 451043,
+		"county_pop": 451108,
 		"notes": ""
 	},
 	"TUO": {
@@ -498,7 +498,7 @@ counties = {
 		"row": 5,
 		"col": 4,
 		"score": 1.5,
-		"county_pop": 54050,
+		"county_pop": 54347,
 		"notes": ""
 	},
 	"VEN": {
@@ -507,7 +507,7 @@ counties = {
 		"row": 11,
 		"col": 5,
 		"score": 3,
-		"county_pop": 834398,
+		"county_pop": 835790,
 		"notes": ""
 	},
 	"YOL": {
@@ -516,7 +516,7 @@ counties = {
 		"row": 4,
 		"col": 2,
 		"score": 1,
-		"county_pop": 203838,
+		"county_pop": 204162,
 		"notes": ""
 	},
 	"YUB": {
@@ -525,7 +525,7 @@ counties = {
 		"row": 2,
 		"col": 2,
 		"score": 1,
-		"county_pop": 72969,
+		"county_pop": 73059,
 		"notes": ""
 	}
 };
