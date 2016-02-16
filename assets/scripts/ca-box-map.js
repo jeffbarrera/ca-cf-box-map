@@ -146,7 +146,7 @@ counties = {
 		"name": "Kings",
 		"row": 9,
 		"col": 7,
-		"score": 1,
+		"score": 1.5,
 		"county_pop": 151390,
 		"notes": ""
 	},
@@ -245,7 +245,7 @@ counties = {
 		"name": "Monterey",
 		"row": 9,
 		"col": 4,
-		"score": 2,
+		"score": 3,
 		"county_pop": 424927,
 		"notes": ""
 	},
@@ -263,9 +263,9 @@ counties = {
 		"name": "Nevada",
 		"row": 2,
 		"col": 4,
-		"score": 1.5,
+		"score": 3,
 		"county_pop": 98606,
-		"notes": "Moving to a newer system"
+		"notes": ""
 	},
 	"ORA": {
 		"abrev": "ORA",
@@ -380,7 +380,7 @@ counties = {
 		"name": "Santa Barbara",
 		"row": 10,
 		"col": 6,
-		"score": 3,
+		"score": 2,
 		"county_pop": 431555,
 		"notes": ""
 	},
@@ -407,7 +407,7 @@ counties = {
 		"name": "Shasta",
 		"row": 0,
 		"col": 3,
-		"score": 1,
+		"score": 2,
 		"county_pop": 178520,
 		"notes": ""
 	},
@@ -416,7 +416,7 @@ counties = {
 		"name": "Sierra",
 		"row": 2,
 		"col": 3,
-		"score": 1,
+		"score": 1.5,
 		"county_pop": 3019,
 		"notes": ""
 	},
@@ -488,7 +488,7 @@ counties = {
 		"name": "Tulare",
 		"row": 9,
 		"col": 8,
-		"score": 1,
+		"score": 1.5,
 		"county_pop": 451108,
 		"notes": ""
 	},
@@ -497,7 +497,7 @@ counties = {
 		"name": "Tuolumne",
 		"row": 5,
 		"col": 4,
-		"score": 1.5,
+		"score": 2,
 		"county_pop": 54347,
 		"notes": ""
 	},
