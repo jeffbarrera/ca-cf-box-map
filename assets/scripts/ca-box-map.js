@@ -20,7 +20,7 @@ counties = {
 		"name": "Alpine",
 		"row": 5,
 		"col": 5,
-		"score": 1,
+		"score": 1.5,
 		"county_pop": 1202,
 		"notes": ""
 	},
@@ -56,7 +56,7 @@ counties = {
 		"name": "Colusa",
 		"row": 3,
 		"col": 1,
-		"score": 1,
+		"score": 1.5,
 		"county_pop": 21424,
 		"notes": ""
 	},
@@ -74,7 +74,7 @@ counties = {
 		"name": "Del Norte",
 		"row": 0,
 		"col": 0,
-		"score": 1,
+		"score": 1.5,
 		"county_pop": 28066,
 		"notes": ""
 	},
@@ -119,7 +119,7 @@ counties = {
 		"name": "Imperial",
 		"row": 12,
 		"col": 7,
-		"score": 1,
+		"score": 1.5,
 		"county_pop": 177026,
 		"notes": ""
 	},
@@ -128,7 +128,7 @@ counties = {
 		"name": "Inyo",
 		"row": 8,
 		"col": 7,
-		"score": 1,
+		"score": 1.5,
 		"county_pop": 18439,
 		"notes": ""
 	},
@@ -146,7 +146,7 @@ counties = {
 		"name": "Kings",
 		"row": 9,
 		"col": 7,
-		"score": 1.5,
+		"score": 1,
 		"county_pop": 151390,
 		"notes": ""
 	},
@@ -434,7 +434,7 @@ counties = {
 		"name": "Solano",
 		"row": 5,
 		"col": 2,
-		"score": 1.5,
+		"score": 1,
 		"county_pop": 421624,
 		"notes": "Moving to a newer system"
 	},
@@ -497,7 +497,7 @@ counties = {
 		"name": "Tuolumne",
 		"row": 5,
 		"col": 4,
-		"score": 2,
+		"score": 1.5,
 		"county_pop": 54347,
 		"notes": ""
 	},
